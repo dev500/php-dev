@@ -19,3 +19,8 @@ RUN curl -sS https://getcomposer.org/installer \
         | php -- --install-dir=/usr/local/bin --filename=composer \
         && composer global require "fxp/composer-asset-plugin:^1.2.0" \
         && composer global require "hirak/prestissimo:^0.3.5"
+
+RUN echo '#!/bin/bash\n update-alternatives --set php /usr/bin/php5.6' > /usr/local/bin/to-php5.6
+RUN echo '#!/bin/bash\n update-alternatives --set php /usr/bin/php7.1' > /usr/local/bin/to-php7.1
+
+RUN chmod +x /usr/local/bin/to-php*
