@@ -1,5 +1,5 @@
 # Docker PHP-DEV
-A Docker image for PHP development
+A Docker image for PHP development with multiple PHP version
 
  * unzip
  * git
@@ -11,5 +11,5 @@ A Docker image for PHP development
     * hirak/prestissimo
 
 ## How to change PHP version
-use `update-alternatives --set php /usr/bin/php${version}` command in container for example
+use `update-alternatives --set php /usr/bin/php${version}` command in container. For example
 `update-alternatives --set php /usr/bin/php5.6`
