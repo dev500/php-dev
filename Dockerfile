@@ -10,8 +10,16 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 14AA40EC0831756756D
                 unzip \
                 git \
                 curl \
-                php5.6-cli php5.6-mbstring php5.6-xml php5.6-curl php5.6-xdebug \
-                php7.1-cli php7.1-mbstring php7.1-xml php7.1-curl php7.1-xdebug \
+                php5.6-cli \
+                        php5.6-mbstring \
+                        php5.6-xml \
+                        php5.6-curl \
+                        php5.6-xdebug \
+                php7.1-cli \
+                        php7.1-mbstring \
+                        php7.1-xml \
+                        php7.1-curl \
+                        php7.1-xdebug \
         && rm -rf /var/lib/apt/lists/*
 
 RUN curl -sS https://getcomposer.org/installer \
