@@ -14,11 +14,13 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 14AA40EC0831756756D
                         php5.6-mbstring \
                         php5.6-xml \
                         php5.6-curl \
+                        php5.6-sqlite \
                         php5.6-xdebug \
                 php7.1-cli \
                         php7.1-mbstring \
                         php7.1-xml \
                         php7.1-curl \
+                        php7.1-sqlite \
                         php7.1-xdebug \
         && rm -rf /var/lib/apt/lists/*
 
