@@ -1,4 +1,9 @@
-# Docker PHP-DEV
+# dev500/php-dev
+
+[![Docker Stars](https://img.shields.io/docker/pulls/dev500/php-dev.svg)](https://hub.docker.com/r/dev500/php-dev/)
+[![Docker Stars](https://img.shields.io/docker/stars/dev500/php-dev.svg)](https://hub.docker.com/r/dev500/php-dev/)
+[![Docker Stars](https://img.shields.io/docker/automated/dev500/php-dev.svg)](https://hub.docker.com/r/dev500/php-dev/)
+
 A Docker image for PHP development with multiple PHP version
 
  * unzip
